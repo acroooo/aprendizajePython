@@ -8,5 +8,9 @@ class Rectangulo:
         return self.ancho * self.alto
 
 
-rectangulo = Rectangulo(13,20)
+# Pido datos
+base = int(input("Proporcione la base: "))
+altura = int(input("Proporcione la altura: "))
+
+rectangulo = Rectangulo(base, altura)
 print(rectangulo.area())
